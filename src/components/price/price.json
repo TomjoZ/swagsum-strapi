@@ -9,9 +9,6 @@
     "from_quantity": {
       "type": "integer"
     },
-    "to_quantity": {
-      "type": "integer"
-    },
     "price": {
       "type": "decimal"
     }
