@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_option_options",
+  "info": {
+    "displayName": "options",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "numberOfColors": {
+      "type": "integer"
+    },
+    "pricing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.price"
+    }
+  }
+}

@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     connection: {
       host: env('PGHOST', '127.0.0.1'),
       port: env.int('PGPORT', 5432),
-      database: env('PGDATABASE', 'strapi'),
+      database: env('PGDATABASE', 'postgres'),
       user: env('PGUSER', 'strapi'),
-      password: env('PGPASSWORD', 'password'),
+      password: env('PGPASSWORD', 'strapi'),
       ssl: env.bool(true),
     },
     pool: { min: 0 }
