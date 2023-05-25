@@ -45,8 +45,14 @@
       "repeatable": true,
       "component": "option.options"
     },
-    "starting_at": {
+    "startingAt": {
       "type": "decimal"
+    },
+    "estimatedProductionTimeInDays": {
+      "type": "integer"
+    },
+    "profitMargin": {
+      "type": "integer"
     }
   }
 }
