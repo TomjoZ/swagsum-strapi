@@ -53,6 +53,12 @@
     },
     "profitMargin": {
       "type": "integer"
+    },
+    "supplier": {
+      "type": "string"
+    },
+    "supplier_code": {
+      "type": "string"
     }
   }
 }
