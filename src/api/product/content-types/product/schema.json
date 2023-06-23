@@ -59,6 +59,20 @@
     },
     "supplier_code": {
       "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "weight": {
+      "type": "integer"
     }
   }
 }
