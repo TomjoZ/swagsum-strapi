@@ -73,6 +73,9 @@
     },
     "weight": {
       "type": "integer"
+    },
+    "UID": {
+      "type": "uid"
     }
   }
 }
