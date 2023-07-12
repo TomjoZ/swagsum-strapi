@@ -34,9 +34,9 @@
       "repeatable": true,
       "component": "variation.variations"
     },
-    "category": {
+    "categories": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "products"
     },
